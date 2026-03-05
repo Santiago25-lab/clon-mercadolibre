@@ -12,19 +12,39 @@ align-items:center;
 padding:15px 40px;
 }
 
+.logo h1{
+margin:0;
+font-size:24px;
+color:#333;
+}
+
+.search-bar{
+flex:1;
+max-width:500px;
+margin:0 20px;
+display:flex;
+}
+
 .search-bar input{
-padding:8px;
-width:300px;
+flex:1;
+padding:10px 15px;
 border:none;
-border-radius:4px;
+border-radius:4px 0 0 4px;
+font-size:14px;
 }
 
 .search-bar button{
-padding:8px 15px;
+padding:10px 20px;
 border:none;
-background:black;
+background:#333;
 color:white;
 cursor:pointer;
+border-radius:0 4px 4px 0;
+transition:background 0.3s ease;
+}
+
+.search-bar button:hover{
+background:#555;
 }
 
 .nav-links a{
@@ -32,6 +52,11 @@ margin-left:20px;
 text-decoration:none;
 color:black;
 font-weight:bold;
+transition:color 0.3s ease;
+}
+
+.nav-links a:hover{
+color:#3483fa;
 }
 
 .search-section{
