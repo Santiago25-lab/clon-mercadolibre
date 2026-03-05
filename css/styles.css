@@ -152,6 +152,35 @@ object-fit:cover;
 border-radius:4px;
 }
 
+.product-card h3{
+margin:15px 0 10px;
+font-size:16px;
+color:#333;
+}
+
+.product-card p{
+font-size:18px;
+font-weight:bold;
+color:#333;
+margin:0 0 15px;
+}
+
+.product-card button{
+padding:10px 20px;
+background:#3483fa;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+font-size:14px;
+font-weight:bold;
+transition:background 0.3s ease;
+}
+
+.product-card button:hover{
+background:#2968d9;
+}
+
 .services{
 padding:40px;
 background:white;
